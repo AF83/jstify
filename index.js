@@ -35,7 +35,6 @@ function process(source, engine_, withImports) {
     );
   } else {
     return (
-      'var _ = require(\'' + engine + '\');\n' +
       'module.exports = ' + source + ';\n'
     );
   }
